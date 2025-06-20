@@ -1,0 +1,13 @@
+model:
+    epochs: 250
+    local_steps_per_epoch:  4000
+    max_ep_len: 1000
+    pi_lr: 3.0e-4
+    vs_lr: 1.0e-3
+    gamma: 0.99
+    clip_ratio: 0.2
+    lam: 0.97
+    iters: 80
+    hidden_sizes:
+    - 64
+    - 32

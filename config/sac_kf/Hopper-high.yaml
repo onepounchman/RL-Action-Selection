@@ -1,0 +1,11 @@
+model:
+    epochs: 20
+    update_every:  1
+    max_ep_len: 1000
+    start_steps: 10000
+    lr: 3.0e-4
+    gamma: 0.99
+    alpha: 0.2
+    hidden_sizes:
+    - 256
+    - 256

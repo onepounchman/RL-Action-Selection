@@ -1,0 +1,14 @@
+gym
+torch==2.0.1
+scipy
+pandas
+pycasso
+scikit-learn
+tensorflow
+mpi4py
+matplotlib
+lassonet
+pyyaml
+gymnasium[mujoco]
+wandb
+PyYAML
